@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Extract text"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintStart_toEndOf="@id/button1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <Button
+        android:id="@+id/button91"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="676dp"
+        android:text="Chinese"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button92"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="676dp"
+        android:text="Korean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button93"
+        android:layout_width="117dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="620dp"
+        android:text="Japanese"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button94"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="620dp"
+        android:text="Devanagari"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="540dp"
+        android:text="Gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="540dp"
+        android:text="Camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="324dp"
+        android:layout_height="228dp"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:hint="EditText"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="254dp"
+        android:layout_height="279dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.913"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
