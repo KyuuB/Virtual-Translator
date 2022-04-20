@@ -17,6 +17,7 @@ import com.google.mlkit.vision.common.InputImage;
 import com.google.mlkit.vision.text.Text;
 import com.google.mlkit.vision.text.TextRecognition;
 import com.google.mlkit.vision.text.TextRecognizer;
+import com.google.mlkit.vision.text.korean.KoreanTextRecognizerOptions;
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions;
 
 import java.io.IOException;
@@ -38,7 +39,9 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     public void  _extractTextFromUri(Context context, Uri _uri) {
-        TextRecognizer recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS);
+
+        TextRecognizer recognizer = TextRecognition.getClient(new KoreanTextRecognizerOptions.Builder().build());
+
         try {
             InputImage image = InputImage.fromFilePath(context, _uri);
             Task<Text> result =
