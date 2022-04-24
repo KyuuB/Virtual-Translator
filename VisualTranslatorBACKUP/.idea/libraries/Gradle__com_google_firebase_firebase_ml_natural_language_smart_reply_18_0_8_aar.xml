@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-smart-reply:18.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-smart-reply/18.0.8/40aab2262d7e8c82c4c314b167089ba97425a1d0/firebase-ml-natural-language-smart-reply-18.0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
