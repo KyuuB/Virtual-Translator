@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-translate:22.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-translate/22.0.2/5ef003b4995bf403e5850867943a5d6a5140a0dc/firebase-ml-natural-language-translate-22.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
