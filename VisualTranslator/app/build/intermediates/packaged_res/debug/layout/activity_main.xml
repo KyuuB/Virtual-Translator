@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <!--    <Button-->
@@ -17,113 +18,192 @@
     <!--        app:layout_constraintEnd_toEndOf="parent"-->
     <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-
+    <!--Chinese Button-->
     <Button
         android:id="@+id/button91"
-        android:layout_width="106dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="676dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_languages"
         android:text="Chinese"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.268"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textColor="#DAF2FA"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <!--Korean Button-->
     <Button
         android:id="@+id/button92"
-        android:layout_width="106dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="676dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/btn_languages"
         android:text="Korean"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="#DAF2FA"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.718"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <!--Japanese Button-->
     <Button
         android:id="@+id/button93"
-        android:layout_width="117dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="620dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_languages"
         android:text="Japanese"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textColor="#DAF2FA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edittext3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button91"
+        app:layout_constraintVertical_bias="0.0" />
 
+    <!--Hindi Button-->
     <Button
         android:id="@+id/button94"
-        android:layout_width="126dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="620dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/btn_languages"
         android:text="Hindi"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="#DAF2FA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edittext3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.725"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button92"
+        app:layout_constraintVertical_bias="0.0" />
 
+    <!--Gallery Button-->
     <Button
         android:id="@+id/button1"
-        android:layout_width="106dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="540dp"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="48dp"
+
+        android:background="@drawable/btn_camera"
+        android:drawableLeft="@drawable/gallery"
         android:text="Gallery"
+        android:textColor="#DAF2FA"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
 
+    <!--Camera Button-->
     <Button
         android:id="@+id/button3"
-        android:layout_width="106dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="540dp"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/btn_camera"
+        android:drawableLeft="@drawable/ic_baseline_photo_camera_24"
         android:text="Camera"
+        android:textColor="#DAF2FA"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.744"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
 
-
+    <!--Text box 1-->
     <EditText
         android:id="@+id/edittext3"
-        android:layout_width="396dp"
-        android:layout_height="137dp"
-        android:layout_margin="10dp"
+        android:layout_width="392dp"
+        android:layout_height="78dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="#DAF2FA"
         android:gravity="start"
         android:hint="EditText"
+        android:textColor="#278CA5"
+        android:textColorHint="#278CA5"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.385" />
 
+    <!--Text box 2-->
     <EditText
         android:id="@+id/edittext4"
-        android:layout_width="393dp"
-        android:layout_height="164dp"
-        android:layout_margin="10dp"
+        android:layout_width="392dp"
+        android:layout_height="77dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="#DAF2FA"
         android:gravity="start"
         android:hint="EditText"
+        android:textColor="#278CA5"
+        android:textColorHint="#278CA5"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649" />
+        app:layout_constraintTop_toBottomOf="@+id/edittext3"
+        app:layout_constraintVertical_bias="0.07" />
 
+    <!--Chosen image from gallery or picture captured by camera-->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="159dp"
-        android:layout_height="167dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="183dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext4"
+        app:layout_constraintVertical_bias="0.0"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <!--Name of app "UTranslate"-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTranslate"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <!--The following are just formatting guides for the frontend-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        tools:layout_editor_absoluteX="411dp" />
 
 
     <!--<TextView

@@ -54,13 +54,13 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
 
-    int preTranslate = 0;
-    ImageView imageView1;
-    String UriString = "";
-    EditText editText3;
-    EditText editText4;
-    TextRecognizer recognizer = TextRecognition.getClient(new KoreanTextRecognizerOptions.Builder().build());
-    private String currentPhotoPath;
+    int preTranslate = 0; // language that the text recognizer is going to scan
+    ImageView imageView1; // post image after camera picture is captured or gallery image is chosen
+    String UriString = ""; // string for gallery image
+    EditText editText3; // text box 1
+    EditText editText4; // text box 2
+    TextRecognizer recognizer = TextRecognition.getClient(new KoreanTextRecognizerOptions.Builder().build()); // by default the first language will be Korean
+    private String currentPhotoPath; // string for image capture with camera
 
 
 
@@ -72,18 +72,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // CHINESE
+        // CHINESE Button
         Button button91 = (Button) findViewById(R.id.button91);
         button91.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Do something in response to button click
-                recognizer = TextRecognition.getClient(new ChineseTextRecognizerOptions.Builder().build());
-                preTranslate = FirebaseTranslateLanguage.ZH;
-                Toast.makeText(MainActivity.this, "Chinese & Latin Recognition", Toast.LENGTH_SHORT).show();
+                recognizer = TextRecognition.getClient(new ChineseTextRecognizerOptions.Builder().build());// instance of recognizer
+                preTranslate = FirebaseTranslateLanguage.ZH; //  pre translate language chosen to be sent to translation
+                Toast.makeText(MainActivity.this, "Chinese & Latin Recognition", Toast.LENGTH_SHORT).show(); // quick message after clicked
             }
         });
 
-        //KOREAN
+        //KOREAN Button
         Button button92 = (Button) findViewById(R.id.button92);
         button92.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -118,12 +118,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        editText3 = findViewById(R.id.edittext3);
-        editText4 = findViewById(R.id.edittext4);
+        editText3 = findViewById(R.id.edittext3); // setting up text box 1
+        editText4 = findViewById(R.id.edittext4); // setting up text box 2
 
 
 
-        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {// function for camera
             @Override
             public void onClick(View view) {
 
@@ -131,13 +131,13 @@ public class MainActivity extends AppCompatActivity {
                 File storageDirectory = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
 
                 try {
-                    File imageFile = File.createTempFile(fileName, ".jpg", storageDirectory);
+                    File imageFile = File.createTempFile(fileName, ".jpg", storageDirectory); // creating a temporary file
 
                     currentPhotoPath = imageFile.getAbsolutePath();
 
                     Uri imageUri = FileProvider.getUriForFile(MainActivity.this, "com.example.visualtranslator.fileprovider", imageFile);
 
-                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);// getting the embedded camera app to work in our app
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
                     startActivityForResult(intent, 1 );
 
@@ -149,12 +149,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button button1 = findViewById(R.id.button1);
+        Button button1 = findViewById(R.id.button1); // camera button
         //Button button2 = findViewById(R.id.button2);
-        imageView1 = findViewById(R.id.imageView);
+        imageView1 = findViewById(R.id.imageView); // where image will be printed on frontend
 
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() { // this will bring the image to frontend
             @Override
             public void onClick(View v) {
                 mGetContent.launch("image/*");
@@ -168,9 +168,9 @@ public class MainActivity extends AppCompatActivity {
     }//end of create
 
 
-    private void translateText(int fromLanguageCode, int toLanguageCode, String source){
+    private void translateText(int fromLanguageCode, int toLanguageCode, String source){ // function for translation
         //translatedTV.setText("Downloading Model...");
-        FirebaseTranslatorOptions options = new FirebaseTranslatorOptions.Builder()
+        FirebaseTranslatorOptions options = new FirebaseTranslatorOptions.Builder() // calling instant for translation
                 .setSourceLanguage(fromLanguageCode)
                 .setTargetLanguage(toLanguageCode)
                 .build();
@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    ActivityResultLauncher<String> mGetContent = registerForActivityResult(
+    ActivityResultLauncher<String> mGetContent = registerForActivityResult( // ML Kit text recognition process function for gallery
             new ActivityResultContracts.GetContent(),
             new ActivityResultCallback<Uri>() {
                 @Override
@@ -215,15 +215,15 @@ public class MainActivity extends AppCompatActivity {
                     UriString = uri.toString();
 
                     try {
-                        InputImage image = InputImage.fromFilePath(getApplicationContext(), uri);
+                        InputImage image = InputImage.fromFilePath(getApplicationContext(), uri); // will get image from gallery
                         Task<Text> result =
-                                recognizer.process(image)
+                                recognizer.process(image)// processing image as uri
                                         .addOnSuccessListener(new OnSuccessListener<Text>() {
                                             @Override
-                                            public void onSuccess(Text visionText) {
+                                            public void onSuccess(Text visionText) {// visionText.getText() is a string
                                                 // Task completed successfully
-                                                editText3.setText(visionText.getText());
-                                                translateText(preTranslate, FirebaseTranslateLanguage.EN, visionText.getText());
+                                                editText3.setText(visionText.getText()); // recognized text sent to edit text box 1
+                                                translateText(preTranslate, FirebaseTranslateLanguage.EN, visionText.getText()); // text sent to translation function
 
                                             }
                                         })
@@ -243,26 +243,26 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) { // ML Kit text recognition for image capture with camera
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == 1 && resultCode == RESULT_OK){
 
-            Bitmap bitmap = BitmapFactory.decodeFile(currentPhotoPath);
+            Bitmap bitmap = BitmapFactory.decodeFile(currentPhotoPath); // we used a bitmap from camera as our image
             ImageView imageView = findViewById(R.id.imageView);
             imageView.setImageBitmap(bitmap);
 
             InputImage image = InputImage.fromBitmap(bitmap, 0);
 
             Task<Text> result =
-                    recognizer.process(image)
+                    recognizer.process(image)// processing image from camera in text recognition process function
                             .addOnSuccessListener(new OnSuccessListener<Text>() {
                                 @Override
-                                public void onSuccess(Text visionText) {
+                                public void onSuccess(Text visionText) { // visionText.getText() is a string
                                     // Task completed successfully
                                     // ...
-                                    editText3.setText(visionText.getText());
-                                    translateText(preTranslate, FirebaseTranslateLanguage.EN, visionText.getText());
+                                    editText3.setText(visionText.getText()); // recognized text sent to edit text box 1
+                                    translateText(preTranslate, FirebaseTranslateLanguage.EN, visionText.getText()); // recognized text sent to translation function
 
 
 

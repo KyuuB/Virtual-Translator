@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ericsolorio/Desktop/VisualTranslator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/res/values-ro/values.xml",

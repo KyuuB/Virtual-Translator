@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ericsolorio/Desktop/VisualTranslator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/Users/ericsolorio/.gradle/caches/transforms-3/87d0494a227243a3ff81153e25a6f71c/transformed/material-1.4.0/res/values-uz/values-uz.xml",
