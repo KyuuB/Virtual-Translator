@@ -6,6 +6,6 @@ To get an android connected to Android Studio you need to have the physical devi
 
 Once you have connected the device you can press run on Android Studio and the app should transfer successfully to your phone. Once transferred the app should be working on the phone. Again to make the app fully offline you might need to download the libraries first. So just select the languages you want to use by doing a quick translation and those languages libraries will download onto your phone. Now the app is fully offline. You don’t need to download these libraries again for the future.
 
-*VisualTranslator-Deliverable is the main app that is able to recognize text from images both from gallery and camera images. The recognizable text can vary from Korean, Japanese, Devanagari, Chinese, and Latin text. This recognized text is than translated to English.
+*VisualTranslator-Deliverable is the main app that is able to recognize text from images both from gallery and camera images. The recognizable text can vary from Korean, Japanese, Devanagari, Chinese, and Latin text. The recognized text is than translated to English.
 
 *Translator-App-Secondary-Feature is a secondary feature/app that we tried to implement to the main app and because of time constraints we made two seperate apps. The Translator-App-Secondary-Feature application is able to take in a variety of language text and output a variety of language text.
