@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.visualtranslator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:6:5-70
+12-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:7:5-64
+13-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:24:5-79
+14-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\7d1cfcd35b6f46b74c794d111603cf39\transformed\play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\7d1cfcd35b6f46b74c794d111603cf39\transformed\play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+18
+19    <application
+19-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:9:5-25:19
+20        android:allowBackup="true"
+20-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:10:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\mikes\.gradle\caches\transforms-3\5e450e75cdac1cfdf3e4f5913158d4f6\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/translation"
+23-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:11:9-45
+24        android:label="@string/app_name"
+24-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:12:9-41
+25        android:roundIcon="@drawable/translation"
+25-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:13:9-50
+26        android:supportsRtl="true"
+26-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:14:9-35
+27        android:theme="@style/Theme.VisualTranslator" >
+27-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:15:9-54
+28        <activity
+28-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:16:9-24:20
+29            android:name="com.example.visualtranslator.MainActivity"
+29-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:17:13-41
+30            android:exported="true" >
+30-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:18:13-36
+31            <intent-filter>
+31-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:20:17-69
+32-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:22:17-77
+34-->C:\Users\mikes\Desktop\CSE Stuff\CSE 155\UTranslate Application\Translator-App-Secondary-Feature\VisualTranslator\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\mikes\.gradle\caches\transforms-3\9164f0c9ac2b6c901892f7cde1f9b9f9\transformed\firebase-ml-natural-language-22.0.1\AndroidManifest.xml:9:9-15:19
+39            android:name="com.google.firebase.components.ComponentDiscoveryService"
+39-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\mikes\.gradle\caches\transforms-3\9164f0c9ac2b6c901892f7cde1f9b9f9\transformed\firebase-ml-natural-language-22.0.1\AndroidManifest.xml:10:13-84
+40            android:directBootAware="true"
+40-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+41            android:exported="false" >
+41-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\mikes\.gradle\caches\transforms-3\9164f0c9ac2b6c901892f7cde1f9b9f9\transformed\firebase-ml-natural-language-22.0.1\AndroidManifest.xml:11:13-37
+42            <meta-data
+42-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\mikes\.gradle\caches\transforms-3\9164f0c9ac2b6c901892f7cde1f9b9f9\transformed\firebase-ml-natural-language-22.0.1\AndroidManifest.xml:12:13-14:85
+43                android:name="com.google.firebase.components:com.google.firebase.ml.naturallanguage.NaturalLanguageRegistrar"
+43-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\mikes\.gradle\caches\transforms-3\9164f0c9ac2b6c901892f7cde1f9b9f9\transformed\firebase-ml-natural-language-22.0.1\AndroidManifest.xml:13:17-126
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\mikes\.gradle\caches\transforms-3\9164f0c9ac2b6c901892f7cde1f9b9f9\transformed\firebase-ml-natural-language-22.0.1\AndroidManifest.xml:14:17-82
+45            <meta-data
+45-->[com.google.firebase:firebase-ml-natural-language-translate:22.0.2] C:\Users\mikes\.gradle\caches\transforms-3\417af70837bb8b6dbda80079a706a3b2\transformed\firebase-ml-natural-language-translate-22.0.2\AndroidManifest.xml:12:13-14:85
+46                android:name="com.google.firebase.components:com.google.firebase.ml.naturallanguage.translate.NaturalLanguageTranslateRegistrar"
+46-->[com.google.firebase:firebase-ml-natural-language-translate:22.0.2] C:\Users\mikes\.gradle\caches\transforms-3\417af70837bb8b6dbda80079a706a3b2\transformed\firebase-ml-natural-language-translate-22.0.2\AndroidManifest.xml:13:17-145
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-ml-natural-language-translate:22.0.2] C:\Users\mikes\.gradle\caches\transforms-3\417af70837bb8b6dbda80079a706a3b2\transformed\firebase-ml-natural-language-translate-22.0.2\AndroidManifest.xml:14:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\mikes\.gradle\caches\transforms-3\8c7702f4fc7892307eac916e5cb3e2dc\transformed\firebase-ml-common-22.1.2\AndroidManifest.xml:11:13-13:85
+49                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+49-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\mikes\.gradle\caches\transforms-3\8c7702f4fc7892307eac916e5cb3e2dc\transformed\firebase-ml-common-22.1.2\AndroidManifest.xml:12:17-117
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\mikes\.gradle\caches\transforms-3\8c7702f4fc7892307eac916e5cb3e2dc\transformed\firebase-ml-common-22.1.2\AndroidManifest.xml:13:17-82
+51            <meta-data
+51-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\7d1cfcd35b6f46b74c794d111603cf39\transformed\play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+52                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+52-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\7d1cfcd35b6f46b74c794d111603cf39\transformed\play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\7d1cfcd35b6f46b74c794d111603cf39\transformed\play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-config:19.2.0] C:\Users\mikes\.gradle\caches\transforms-3\3c728ed23dd34df828a2b106eb37e82f\transformed\firebase-config-19.2.0\AndroidManifest.xml:32:13-34:85
+55                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+55-->[com.google.firebase:firebase-config:19.2.0] C:\Users\mikes\.gradle\caches\transforms-3\3c728ed23dd34df828a2b106eb37e82f\transformed\firebase-config-19.2.0\AndroidManifest.xml:33:17-117
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-config:19.2.0] C:\Users\mikes\.gradle\caches\transforms-3\3c728ed23dd34df828a2b106eb37e82f\transformed\firebase-config-19.2.0\AndroidManifest.xml:34:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\233253784fe9af5ab359a06eca12185d\transformed\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+58                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+58-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\233253784fe9af5ab359a06eca12185d\transformed\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\233253784fe9af5ab359a06eca12185d\transformed\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\mikes\.gradle\caches\transforms-3\8f2226a51bbc4e4f9239b3c4e7e43c53\transformed\firebase-abt-19.1.0\AndroidManifest.xml:13:13-15:85
+61                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+61-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\mikes\.gradle\caches\transforms-3\8f2226a51bbc4e4f9239b3c4e7e43c53\transformed\firebase-abt-19.1.0\AndroidManifest.xml:14:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\mikes\.gradle\caches\transforms-3\8f2226a51bbc4e4f9239b3c4e7e43c53\transformed\firebase-abt-19.1.0\AndroidManifest.xml:15:17-82
+63        </service>
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\d8a0c4143515faa6818e6ea2907c3147\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\d8a0c4143515faa6818e6ea2907c3147\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\d8a0c4143515faa6818e6ea2907c3147\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mikes\.gradle\caches\transforms-3\d8a0c4143515faa6818e6ea2907c3147\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+69
+70        <receiver
+70-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:29:9-33:20
+71            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+71-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:30:13-85
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:31:13-35
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:32:13-37
+74        </receiver>
+75
+76        <service
+76-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:35:9-38:40
+77            android:name="com.google.android.gms.measurement.AppMeasurementService"
+77-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:36:13-84
+78            android:enabled="true"
+78-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:37:13-35
+79            android:exported="false" />
+79-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:38:13-37
+80        <service
+80-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:39:9-43:72
+81            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+81-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:40:13-87
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:41:13-35
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:42:13-37
+84            android:permission="android.permission.BIND_JOB_SERVICE" />
+84-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\mikes\.gradle\caches\transforms-3\14a978f161563f9ad594e34f8c6d5e76\transformed\play-services-measurement-20.1.2\AndroidManifest.xml:43:13-69
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+88            android:authorities="com.example.visualtranslator.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+90            android:exported="false"
+90-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+91            android:initOrder="100" />
+91-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mikes\.gradle\caches\transforms-3\ae175648eb0090dd01a7907516f38ed4\transformed\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mikes\.gradle\caches\transforms-3\2f7ba5ac0f4bb80582106eb2cce5ccfb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mikes\.gradle\caches\transforms-3\2f7ba5ac0f4bb80582106eb2cce5ccfb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mikes\.gradle\caches\transforms-3\2f7ba5ac0f4bb80582106eb2cce5ccfb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+99            android:authorities="com.example.visualtranslator.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikes\.gradle\caches\transforms-3\e2074e081772c2c1b47c8dd382daafc4\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikes\.gradle\caches\transforms-3\e89e22de4595fd9fccf9c3d596861ba6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikes\.gradle\caches\transforms-3\e89e22de4595fd9fccf9c3d596861ba6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikes\.gradle\caches\transforms-3\e89e22de4595fd9fccf9c3d596861ba6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+107        </provider>
+108    </application>
+109
+110</manifest>

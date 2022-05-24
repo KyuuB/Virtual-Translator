@@ -1,0 +1,646 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/ericsolorio/.gradle/caches/transforms-3/87d0494a227243a3ff81153e25a6f71c/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ericsolorio/.gradle/caches/transforms-3/89567b4f3bb15c071d8d1d18638038ae/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/ericsolorio/.gradle/caches/transforms-3/7213e0a16b99a06d16b3f3575ea60ce6/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/93f0e9d04de4f35ba3e8252f1857afb0/transformed/firebase-core-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-natural-language-language-id-model:20.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/1f690daa24b532e85bfcb7c0152aab9f/transformed/firebase-ml-natural-language-language-id-model-20.0.8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9] /Users/ericsolorio/.gradle/caches/transforms-3/d86bcef5a10e15556421436f095842d9/transformed/firebase-ml-natural-language-translate-model-20.0.9/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/8464964861533240132a140faea85728/transformed/play-services-mlkit-text-recognition-17.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/e74a01388ef85b78291e36dae19a83cf/transformed/text-recognition-devanagari-16.0.0-beta3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/c8065845ff7856b92492586cdae8c507/transformed/text-recognition-korean-16.0.0-beta3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/979a5670df515d2f38b3ea2d1e644470/transformed/text-recognition-japanese-16.0.0-beta3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/97120152bd8f67417487af3e83d0393e/transformed/text-recognition-chinese-16.0.0-beta3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/a6768875cb05679ba541518f0c683dd1/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/43bb586f349b01b59c010698150ceaf9/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/3e29eb7acee149a851152a222f803ddb/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-ml-natural-language-smart-reply:18.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/958bda51e21222ea94a6bba5c5b937b8/transformed/text-recognition-bundled-common-16.0.0-beta3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/fbc7bed513d372455c1e643877e79e3a/transformed/firebase-analytics-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/9629b234b758f6657185df56613da1bb/transformed/play-services-measurement-sdk-20.1.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/44f2dd15b7dd89cf6d0e36946508b776/transformed/vision-interfaces-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c3aa58041285413fc9a2500453a6c84d/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/4fcdd0992800b9da9bb4d14c435dd647/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8a506db2340fa816af1b0d39fffe20e3/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/328823ef5fc13f06b440c1aed6aeee5b/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/7467cd00d55dcd0b7d6c88032e504fb5/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/ericsolorio/.gradle/caches/transforms-3/8fef4ca180a5547e0a95db3d2107a4e9/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/ericsolorio/.gradle/caches/transforms-3/2e35b51932e473651ae39faaea652e04/transformed/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/ericsolorio/.gradle/caches/transforms-3/dab4162772da4242774fbab220ab219f/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/9abdfc2b2668063815ca62d2143c4527/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/742da96d75dca2870cae6bf4f6cc080a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/11086c51abdea3b8212dce9869d578f6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/64efdf1620c6d2baae9a7d1c12b44669/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/cc770344593f839596d9df73f224de61/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/af6543802561462dc2c009bd4e10bd8a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c087b08e826c35f0df18f14add6d3cb0/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/155eab1cbb85531f6010c0422e78dcf6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e063cfd9e29136f537bbbf1794d51f6a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/679d49ab383075bb67d728b35575e909/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c848a736dff4a74560f6187618e7d9a2/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/ericsolorio/.gradle/caches/transforms-3/68b676e5d3bbf784ac375dad8dde6b06/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/19a74f34ae573fd7e564f2c0966b2709/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/6af84f53ae5ca7a026d8702609f00238/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/ca26eab887f752335f722c508fbfcff6/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/c30670353e245e6cb14bc61f3a6a2d77/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/7ee146a05dde8b98f374853b7e78985e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/51fd3c26dab3926e74b46386b7d46ca9/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ericsolorio/.gradle/caches/transforms-3/488f4a93e76d25fb051b3dcfdd59e79f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/fd19fc3524bf4c7d360c459a051127c2/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/581ef27e10854dbf8a55ad20c0482c15/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/43d04471140e88108aa0f3e1e7a935b3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/e9cc9b0b47a3081c4b4ebd1454934611/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ericsolorio/.gradle/caches/transforms-3/b2ab5e53956e28eb9a09573ef7e6fbe2/transformed/transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/a2b43a0df96a9c331b25eff6ab386c70/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/6c118776cacd0f9845caca3ec9d3099f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/b45e82c8f09a2bdca2ff8b79a251915a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/8912cd04449aa7aa2cb8e0a61e759534/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e501951f24de69901294aa69803bf7e5/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/69cff1faeed5ba0483de438009e30bfb/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/222e987722d59481f614e1cfc28f6392/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/492afedd73d8781fb5aabc11ede29c8b/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/ericsolorio/.gradle/caches/transforms-3/a7717cc4ae4f1ce10d8004b1e3873f70/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:9:5-48:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/ericsolorio/.gradle/caches/transforms-3/87d0494a227243a3ff81153e25a6f71c/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/ericsolorio/.gradle/caches/transforms-3/87d0494a227243a3ff81153e25a6f71c/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ericsolorio/.gradle/caches/transforms-3/89567b4f3bb15c071d8d1d18638038ae/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ericsolorio/.gradle/caches/transforms-3/89567b4f3bb15c071d8d1d18638038ae/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/93f0e9d04de4f35ba3e8252f1857afb0/transformed/firebase-core-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/93f0e9d04de4f35ba3e8252f1857afb0/transformed/firebase-core-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/43bb586f349b01b59c010698150ceaf9/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/43bb586f349b01b59c010698150ceaf9/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/3e29eb7acee149a851152a222f803ddb/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/3e29eb7acee149a851152a222f803ddb/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-ml-natural-language-smart-reply:18.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-ml-natural-language-smart-reply:18.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/fbc7bed513d372455c1e643877e79e3a/transformed/firebase-analytics-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/fbc7bed513d372455c1e643877e79e3a/transformed/firebase-analytics-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/9629b234b758f6657185df56613da1bb/transformed/play-services-measurement-sdk-20.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/9629b234b758f6657185df56613da1bb/transformed/play-services-measurement-sdk-20.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/4fcdd0992800b9da9bb4d14c435dd647/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/4fcdd0992800b9da9bb4d14c435dd647/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8a506db2340fa816af1b0d39fffe20e3/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8a506db2340fa816af1b0d39fffe20e3/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/328823ef5fc13f06b440c1aed6aeee5b/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/328823ef5fc13f06b440c1aed6aeee5b/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/7467cd00d55dcd0b7d6c88032e504fb5/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/7467cd00d55dcd0b7d6c88032e504fb5/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /Users/ericsolorio/.gradle/caches/transforms-3/68b676e5d3bbf784ac375dad8dde6b06/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/ericsolorio/.gradle/caches/transforms-3/68b676e5d3bbf784ac375dad8dde6b06/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ericsolorio/.gradle/caches/transforms-3/488f4a93e76d25fb051b3dcfdd59e79f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ericsolorio/.gradle/caches/transforms-3/488f4a93e76d25fb051b3dcfdd59e79f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/ericsolorio/.gradle/caches/transforms-3/a7717cc4ae4f1ce10d8004b1e3873f70/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/ericsolorio/.gradle/caches/transforms-3/a7717cc4ae4f1ce10d8004b1e3873f70/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/ericsolorio/.gradle/caches/transforms-3/68b676e5d3bbf784ac375dad8dde6b06/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:13:9-50
+	android:icon
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:18:9-54
+	android:usesCleartextTraffic
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:16:9-44
+activity#com.example.visualtranslator.MainActivity
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:20:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:25:27-74
+provider#androidx.core.content.FileProvider
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:29:9-39:20
+	android:grantUriPermissions
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:30:13-76
+	android:exported
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:31:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:35:13-36:54
+	android:resource
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:36:17-51
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:35:24-74
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:41:9-43:35
+	android:value
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:43:13-32
+	android:name
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml:42:13-64
+uses-sdk
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] /Users/ericsolorio/.gradle/caches/transforms-3/87d0494a227243a3ff81153e25a6f71c/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/ericsolorio/.gradle/caches/transforms-3/87d0494a227243a3ff81153e25a6f71c/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ericsolorio/.gradle/caches/transforms-3/89567b4f3bb15c071d8d1d18638038ae/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ericsolorio/.gradle/caches/transforms-3/89567b4f3bb15c071d8d1d18638038ae/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/ericsolorio/.gradle/caches/transforms-3/7213e0a16b99a06d16b3f3575ea60ce6/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/ericsolorio/.gradle/caches/transforms-3/7213e0a16b99a06d16b3f3575ea60ce6/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-core:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/93f0e9d04de4f35ba3e8252f1857afb0/transformed/firebase-core-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/93f0e9d04de4f35ba3e8252f1857afb0/transformed/firebase-core-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-language-id-model:20.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/1f690daa24b532e85bfcb7c0152aab9f/transformed/firebase-ml-natural-language-language-id-model-20.0.8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-language-id-model:20.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/1f690daa24b532e85bfcb7c0152aab9f/transformed/firebase-ml-natural-language-language-id-model-20.0.8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9] /Users/ericsolorio/.gradle/caches/transforms-3/d86bcef5a10e15556421436f095842d9/transformed/firebase-ml-natural-language-translate-model-20.0.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9] /Users/ericsolorio/.gradle/caches/transforms-3/d86bcef5a10e15556421436f095842d9/transformed/firebase-ml-natural-language-translate-model-20.0.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/8464964861533240132a140faea85728/transformed/play-services-mlkit-text-recognition-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/8464964861533240132a140faea85728/transformed/play-services-mlkit-text-recognition-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/e74a01388ef85b78291e36dae19a83cf/transformed/text-recognition-devanagari-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/e74a01388ef85b78291e36dae19a83cf/transformed/text-recognition-devanagari-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/c8065845ff7856b92492586cdae8c507/transformed/text-recognition-korean-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/c8065845ff7856b92492586cdae8c507/transformed/text-recognition-korean-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/979a5670df515d2f38b3ea2d1e644470/transformed/text-recognition-japanese-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/979a5670df515d2f38b3ea2d1e644470/transformed/text-recognition-japanese-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/97120152bd8f67417487af3e83d0393e/transformed/text-recognition-chinese-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/97120152bd8f67417487af3e83d0393e/transformed/text-recognition-chinese-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/a6768875cb05679ba541518f0c683dd1/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/a6768875cb05679ba541518f0c683dd1/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/43bb586f349b01b59c010698150ceaf9/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/43bb586f349b01b59c010698150ceaf9/transformed/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/3e29eb7acee149a851152a222f803ddb/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/3e29eb7acee149a851152a222f803ddb/transformed/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-smart-reply:18.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-natural-language-smart-reply:18.0.8] /Users/ericsolorio/.gradle/caches/transforms-3/bb032c3ec0d73b0e5cacc53f93508eaf/transformed/firebase-ml-natural-language-smart-reply-18.0.8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/958bda51e21222ea94a6bba5c5b937b8/transformed/text-recognition-bundled-common-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0-beta3] /Users/ericsolorio/.gradle/caches/transforms-3/958bda51e21222ea94a6bba5c5b937b8/transformed/text-recognition-bundled-common-16.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/fbc7bed513d372455c1e643877e79e3a/transformed/firebase-analytics-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/fbc7bed513d372455c1e643877e79e3a/transformed/firebase-analytics-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/9629b234b758f6657185df56613da1bb/transformed/play-services-measurement-sdk-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/9629b234b758f6657185df56613da1bb/transformed/play-services-measurement-sdk-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/44f2dd15b7dd89cf6d0e36946508b776/transformed/vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/44f2dd15b7dd89cf6d0e36946508b776/transformed/vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c3aa58041285413fc9a2500453a6c84d/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c3aa58041285413fc9a2500453a6c84d/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/4fcdd0992800b9da9bb4d14c435dd647/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/4fcdd0992800b9da9bb4d14c435dd647/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8a506db2340fa816af1b0d39fffe20e3/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8a506db2340fa816af1b0d39fffe20e3/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/328823ef5fc13f06b440c1aed6aeee5b/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/328823ef5fc13f06b440c1aed6aeee5b/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/7467cd00d55dcd0b7d6c88032e504fb5/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/7467cd00d55dcd0b7d6c88032e504fb5/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/ericsolorio/.gradle/caches/transforms-3/8fef4ca180a5547e0a95db3d2107a4e9/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/ericsolorio/.gradle/caches/transforms-3/8fef4ca180a5547e0a95db3d2107a4e9/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/ericsolorio/.gradle/caches/transforms-3/2e35b51932e473651ae39faaea652e04/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/ericsolorio/.gradle/caches/transforms-3/2e35b51932e473651ae39faaea652e04/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/ericsolorio/.gradle/caches/transforms-3/dab4162772da4242774fbab220ab219f/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/ericsolorio/.gradle/caches/transforms-3/dab4162772da4242774fbab220ab219f/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/9abdfc2b2668063815ca62d2143c4527/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/9abdfc2b2668063815ca62d2143c4527/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/742da96d75dca2870cae6bf4f6cc080a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/742da96d75dca2870cae6bf4f6cc080a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/11086c51abdea3b8212dce9869d578f6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/11086c51abdea3b8212dce9869d578f6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/64efdf1620c6d2baae9a7d1c12b44669/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/64efdf1620c6d2baae9a7d1c12b44669/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/cc770344593f839596d9df73f224de61/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/cc770344593f839596d9df73f224de61/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/af6543802561462dc2c009bd4e10bd8a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/af6543802561462dc2c009bd4e10bd8a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c087b08e826c35f0df18f14add6d3cb0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c087b08e826c35f0df18f14add6d3cb0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/155eab1cbb85531f6010c0422e78dcf6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/155eab1cbb85531f6010c0422e78dcf6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e063cfd9e29136f537bbbf1794d51f6a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e063cfd9e29136f537bbbf1794d51f6a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/679d49ab383075bb67d728b35575e909/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/679d49ab383075bb67d728b35575e909/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c848a736dff4a74560f6187618e7d9a2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/c848a736dff4a74560f6187618e7d9a2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/ericsolorio/.gradle/caches/transforms-3/68b676e5d3bbf784ac375dad8dde6b06/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/ericsolorio/.gradle/caches/transforms-3/68b676e5d3bbf784ac375dad8dde6b06/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/19a74f34ae573fd7e564f2c0966b2709/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/19a74f34ae573fd7e564f2c0966b2709/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/6af84f53ae5ca7a026d8702609f00238/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/6af84f53ae5ca7a026d8702609f00238/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/ca26eab887f752335f722c508fbfcff6/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/ca26eab887f752335f722c508fbfcff6/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/c30670353e245e6cb14bc61f3a6a2d77/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/c30670353e245e6cb14bc61f3a6a2d77/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/7ee146a05dde8b98f374853b7e78985e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/7ee146a05dde8b98f374853b7e78985e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/51fd3c26dab3926e74b46386b7d46ca9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/51fd3c26dab3926e74b46386b7d46ca9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ericsolorio/.gradle/caches/transforms-3/488f4a93e76d25fb051b3dcfdd59e79f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ericsolorio/.gradle/caches/transforms-3/488f4a93e76d25fb051b3dcfdd59e79f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/fd19fc3524bf4c7d360c459a051127c2/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/fd19fc3524bf4c7d360c459a051127c2/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/581ef27e10854dbf8a55ad20c0482c15/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/581ef27e10854dbf8a55ad20c0482c15/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/43d04471140e88108aa0f3e1e7a935b3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ericsolorio/.gradle/caches/transforms-3/43d04471140e88108aa0f3e1e7a935b3/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/e9cc9b0b47a3081c4b4ebd1454934611/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/e9cc9b0b47a3081c4b4ebd1454934611/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ericsolorio/.gradle/caches/transforms-3/b2ab5e53956e28eb9a09573ef7e6fbe2/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ericsolorio/.gradle/caches/transforms-3/b2ab5e53956e28eb9a09573ef7e6fbe2/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/a2b43a0df96a9c331b25eff6ab386c70/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/a2b43a0df96a9c331b25eff6ab386c70/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/6c118776cacd0f9845caca3ec9d3099f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/6c118776cacd0f9845caca3ec9d3099f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/b45e82c8f09a2bdca2ff8b79a251915a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/b45e82c8f09a2bdca2ff8b79a251915a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/8912cd04449aa7aa2cb8e0a61e759534/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/8912cd04449aa7aa2cb8e0a61e759534/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e501951f24de69901294aa69803bf7e5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e501951f24de69901294aa69803bf7e5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/69cff1faeed5ba0483de438009e30bfb/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/69cff1faeed5ba0483de438009e30bfb/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/222e987722d59481f614e1cfc28f6392/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/222e987722d59481f614e1cfc28f6392/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/492afedd73d8781fb5aabc11ede29c8b/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/492afedd73d8781fb5aabc11ede29c8b/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/ericsolorio/.gradle/caches/transforms-3/a7717cc4ae4f1ce10d8004b1e3873f70/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/ericsolorio/.gradle/caches/transforms-3/a7717cc4ae4f1ce10d8004b1e3873f70/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericsolorio/Desktop/Virtual-Translator/VisualTranslator/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:10:13-84
+meta-data#com.google.firebase.components:com.google.firebase.ml.naturallanguage.NaturalLanguageRegistrar
+ADDED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-natural-language:22.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/9164f0c9ac2b6c901892f7cde1f9b9f9/transformed/firebase-ml-natural-language-22.0.1/AndroidManifest.xml:13:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ml.naturallanguage.translate.NaturalLanguageTranslateRegistrar
+ADDED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-natural-language-translate:22.0.2] /Users/ericsolorio/.gradle/caches/transforms-3/417af70837bb8b6dbda80079a706a3b2/transformed/firebase-ml-natural-language-translate-22.0.2/AndroidManifest.xml:13:17-145
+meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
+ADDED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/8c7702f4fc7892307eac916e5cb3e2dc/transformed/firebase-ml-common-22.1.2/AndroidManifest.xml:12:17-117
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/e64679245e4ae5124c2f79130bc9e2de/transformed/play-services-mlkit-text-recognition-common-17.0.0/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/230f9b21ff82172f0e7602d5c1cd3964/transformed/vision-common-17.0.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/75c282c1ac0a3afd6ec4a7a04d73cc50/transformed/common-18.0.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/ericsolorio/.gradle/caches/transforms-3/f5fcbbf231059977e61a3b6db1ce82c0/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/14a978f161563f9ad594e34f8c6d5e76/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/a49b73242298c0ae9b6218fb1511afa2/transformed/play-services-measurement-impl-20.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/498757194bbdd713c70d2ee4b7f20a26/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/f5f36b60e528de89828b92336352f20e/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ericsolorio/.gradle/caches/transforms-3/7d1cfcd35b6f46b74c794d111603cf39/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:19.2.0] /Users/ericsolorio/.gradle/caches/transforms-3/3c728ed23dd34df828a2b106eb37e82f/transformed/firebase-config-19.2.0/AndroidManifest.xml:33:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/233253784fe9af5ab359a06eca12185d/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:19.1.0] /Users/ericsolorio/.gradle/caches/transforms-3/8f2226a51bbc4e4f9239b3c4e7e43c53/transformed/firebase-abt-19.1.0/AndroidManifest.xml:14:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/ae175648eb0090dd01a7907516f38ed4/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/ericsolorio/.gradle/caches/transforms-3/2f7ba5ac0f4bb80582106eb2cce5ccfb/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/ericsolorio/.gradle/caches/transforms-3/3e119b2b3f711c05cbaab6131c60c6d2/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ericsolorio/.gradle/caches/transforms-3/443dcd739596d1c44b9050d59d2adc02/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132

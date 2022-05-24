@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\mikes\\Desktop\\CSE Stuff\\CSE 155\\UTranslate Application\\Translator-App-Secondary-Feature\\VisualTranslator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mikes\\.gradle\\caches\\transforms-3\\44dc9db0222ecac5281e7178e075d930\\transformed\\appcompat-1.4.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

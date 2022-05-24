@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040006780878",
+    "project_id": "virtual-translator-app",
+    "storage_bucket": "virtual-translator-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040006780878:android:e3897ac4894e138e893d9f",
+        "android_client_info": {
+          "package_name": "com.example.visualtranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040006780878-dq0s16ijach24rm5916b2lfs0772m33b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHu3V89lYzRze31i0Wow0c3J2Yc2PPYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040006780878-dq0s16ijach24rm5916b2lfs0772m33b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

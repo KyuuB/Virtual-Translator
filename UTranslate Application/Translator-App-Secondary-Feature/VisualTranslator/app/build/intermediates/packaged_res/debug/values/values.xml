@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#278CA5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Visual Translator</string>
+    <string name="default_web_client_id" translatable="false">1040006780878-dq0s16ijach24rm5916b2lfs0772m33b.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1040006780878</string>
+    <string name="google_api_key" translatable="false">AIzaSyBXHu3V89lYzRze31i0Wow0c3J2Yc2PPYQ</string>
+    <string name="google_app_id" translatable="false">1:1040006780878:android:e3897ac4894e138e893d9f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBXHu3V89lYzRze31i0Wow0c3J2Yc2PPYQ</string>
+    <string name="google_storage_bucket" translatable="false">virtual-translator-app.appspot.com</string>
+    <string name="project_id" translatable="false">virtual-translator-app</string>
+    <style name="AppTheme.MaterialTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="Theme.VisualTranslator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
