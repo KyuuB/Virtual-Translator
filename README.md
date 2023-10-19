@@ -1,8 +1,8 @@
 # Virtual-Translator
 
-For VisualTranslator-Deliverable it was inspired and is credited to:
-2 youtube videos who had outdated apps. I merged them togther to create a new app with/including a new API.
-Youtube links will be posted once found.
+#For VisualTranslator-Deliverable it was inspired and is credited to:
+#2 youtube videos who had outdated apps. I merged them togther to create a new app with/including a new API.
+#Youtube links will be posted once found.
 
 
 The following code should be simple to run. Make sure you run the following code on Android Studio. We would highly recommend using a physical device instead of the simulator, so you can get a better use of the camera feature in the app. 
